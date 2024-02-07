@@ -1,0 +1,42 @@
+CON LABELS
+
+
+texto1 = Label(ventana, text="HOLA", bg = "blue", fg = "red" , font="Arial")
+texto1.place(x=300, y=10 , width=50 , height=50)
+
+-----------------------------------------------------------------------
+
+CON TEXTs
+
+texto2 = Text(ventana,font = fuente_titulos, bg = "blue", fg = "red")
+texto2.insert(INSERT,"BIENVENIDO")
+texto2.place(x=300, y=90 , width=300 , height=50)
+
+
+----------------------------------------------------------------------
+
+crear tipo de letra personalizada 
+
+fuente_titulos = tkFont.Font(family="Comic Sans MS", size=25, weight="bold", slant="italic")
+
+donde
+import tkinter.font as tkFont
+
+------------------------------------------------------------------------
+
+https://docs.hektorprofe.net/python/interfaces-graficas-con-tkinter/widget-label-etiqueta-de-texto/
+
+para cambiar foto de label en mientras corre programa
+
+-----------------------------------------------------------------------------------
+
+PARA PREGUNTAR LA CONTRASEÑA AL EJECUTAR COMANDO DEL OS EN PYTHON
+
+https://unix.stackexchange.com/questions/254072/how-do-i-ask-password-by-gui-prompt-while-using-sudo-in-script
+https://askubuntu.com/questions/1124875/how-do-i-set-askpass-variable
+
+se usa un programa propio o uno que viene por defecto en el sistema llamado "ssh-askpass"
+sino esta , solo hay que instalarlo desde terminal.
+
+-------------------------------------------------------------------------------------
+
